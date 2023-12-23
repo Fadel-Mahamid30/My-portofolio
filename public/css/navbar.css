@@ -1,0 +1,12 @@
+
+.active-language {
+    @apply text-green-500;
+}
+
+.non-active-language {
+    @apply text-white;
+}
+
+.active {
+    @apply text-pr-lavender;
+}
