@@ -114,7 +114,7 @@ const About = ({ data, setLanguage }) => {
                                   {career.working_period}
                                 </p>
                               </div>
-                              <p className="text-base hp:text-lg font-light text-white">
+                              <p className="text-lg hp:text-lg font-light text-white">
                                 {career.descriptions}
                               </p>
                             </div>

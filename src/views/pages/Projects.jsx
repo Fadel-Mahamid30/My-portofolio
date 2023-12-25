@@ -59,7 +59,7 @@ const Projects = ({ data, setLanguage }) => {
                       disible={disabledBtn}
                     >
                       <span className="text-base font-semibold block">
-                        See More
+                        Load More
                       </span>
                     </Button>
                   </div>
