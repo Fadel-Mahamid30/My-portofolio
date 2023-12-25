@@ -1,16 +1,15 @@
 {
   "english": {
-    "profile": [
-      {
-        "foto_profile_1": "../public/assets/profile/profile_1.png",
-        "foto_profile_2": "../public/assets/profile/profile_1.png",
-        "regards": "I am",
-        "name": "I'm Fadel Mahamid Ahmad",
-        "occupation": "Web Developer",
-        "visi": "As a web developer, my enthusiasm lies in perfecting the harmony between system functionality and client interface design. I recognize the significance of an appealing layout in enhancing the product's branding. My approach involves a meticulous focus on system architecture, ensuring seamless functionality, and a keen eye for client-side visual details to elevate the overall user experience.",
-        "about": "Regards! I'm Fadel Mahamid Ahmad, a web developer passionate about creating engaging and functional online experiences. I have expertise in developing reliable web systems and attractive interfaces for users. With my background in web development, I recognize the importance of attractive design in building a product image. I not only focus on system functionality, but also on a compelling user experience. My approach involves special attention to design-details, arrangement of elements, and optimization of performance. I believe that good design is the key to building a strong product brand. I love working with the latest technology and am always looking for new ways to improve my web development skills. If you have any interesting projects or collaboration opportunities, I'd love to hear about them."
-      }
-    ],
+    "profile": {
+      "foto_profile_1": "../public/assets/profile/profile_1.png",
+      "foto_profile_2": "../public/assets/profile/profile_2.png",
+      "intro": "I am",
+      "regards": "Hi everyone",
+      "name": "Fadel Mahamid Ahmad",
+      "occupation": "Web Developer",
+      "visi": "As a web developer, my enthusiasm lies in perfecting the harmony between system functionality and client interface design. I recognize the significance of an appealing layout in enhancing the product's branding. My approach involves a meticulous focus on system architecture, ensuring seamless functionality, and a keen eye for client-side visual details to elevate the overall user experience.",
+      "about": "Regards! I'm Fadel Mahamid Ahmad, a web developer passionate about creating engaging and functional online experiences. I have expertise in developing reliable web systems and attractive interfaces for users. With my background in web development, I recognize the importance of attractive design in building a product image. I not only focus on system functionality, but also on a compelling user experience. My approach involves special attention to design-details, arrangement of elements, and optimization of performance. I believe that good design is the key to building a strong product brand. I love working with the latest technology and am always looking for new ways to improve my web development skills. If you have any interesting projects or collaboration opportunities, I'd love to hear about them."
+    },
 
     "contacts": {
       "facebook": {
@@ -102,24 +101,28 @@
       {
         "img": "../public/assets/project/layout_radian.png",
         "title": "Radian Edu Solution",
+        "category": "Web Design",
         "url": "#",
         "title_color": "#0096FF"
       },
       {
         "img": "../public/assets/project/layout_logbook.png",
         "title": "Employee Work Record Book",
+        "category": "Web Design",
         "url": "#",
         "title_color": "#1E429F"
       },
       {
         "img": "../public/assets/project/layout_montoon.png",
         "title": "Moonton Movie",
+        "category": "Web Design",
         "url": "#",
         "title_color": "#FB6908"
       },
       {
         "img": "../public/assets/project/layout_niaga_shop.png",
         "title": "Niaga Shop",
+        "category": "Web Design",
         "url": "#",
         "title_color": "#FBA11A"
       }
@@ -175,17 +178,16 @@
   },
 
   "indonesia": {
-    "profile": [
-      {
-        "foto_profile_1": "../public/assets/profile/profile_1.png",
-        "foto_profile_2": "../public/assets/profile/profile_1.png",
-        "regards": "Saya",
-        "name": "Saya Fadel Mahamid Ahmad",
-        "occupation": "Web Developer",
-        "visi": "Sebagai pengembang web, antusiasme saya terletak pada menyempurnakan harmoni antara fungsionalitas sistem dan desain antarmuka klien. Saya menyadari pentingnya tata letak yang menarik dalam meningkatkan citra produk. Pendekatan saya melibatkan fokus yang cermat pada arsitektur sistem, memastikan fungsionalitas yang mulus, dan mata yang tajam untuk detail visual di sisi klien untuk meningkatkan pengalaman pengguna secara keseluruhan.",
-        "about": "Halo! Saya Fadel Mahamid Ahmad, seorang pengembang web yang antusias tentang menciptakan pengalaman online yang menarik dan fungsional. Saya memiliki keahlian dalam mengembangkan sistem web yang handal dan antarmuka yang menarik bagi pengguna. Dengan latar belakang saya dalam pengembangan web, saya menyadari pentingnya desain yang menarik dalam membangun citra produk. Saya tidak hanya fokus pada fungsionalitas sistem, tetapi juga pada pengalaman pengguna yang memikat. Pendekatan saya melibatkan perhatian khusus pada detail desain, penataan elemen, dan optimasi kinerja. Saya percaya bahwa desain yang baik adalah kunci untuk membangun merek produk yang kuat. Saya suka bekerja dengan teknologi terbaru dan selalu mencari cara baru untuk meningkatkan keterampilan pengembangan web saya. Jika Anda memiliki proyek menarik atau peluang kolaborasi, saya akan senang mendengarnya."
-      }
-    ],
+    "profile": {
+      "foto_profile_1": "../public/assets/profile/profile_1.png",
+      "foto_profile_2": "../public/assets/profile/profile_2.png",
+      "intro": "Saya",
+      "regards": "Halo Semua",
+      "name": "Fadel Mahamid Ahmad",
+      "occupation": "Web Developer",
+      "visi": "Sebagai pengembang web, antusiasme saya terletak pada menyempurnakan harmoni antara fungsionalitas sistem dan desain antarmuka klien. Saya menyadari pentingnya tata letak yang menarik dalam meningkatkan citra produk. Pendekatan saya melibatkan fokus yang cermat pada arsitektur sistem, memastikan fungsionalitas yang mulus, dan mata yang tajam untuk detail visual di sisi klien untuk meningkatkan pengalaman pengguna secara keseluruhan.",
+      "about": "Halo! Saya Fadel Mahamid Ahmad, seorang pengembang web yang antusias tentang menciptakan pengalaman online yang menarik dan fungsional. Saya memiliki keahlian dalam mengembangkan sistem web yang handal dan antarmuka yang menarik bagi pengguna. Dengan latar belakang saya dalam pengembangan web, saya menyadari pentingnya desain yang menarik dalam membangun citra produk. Saya tidak hanya fokus pada fungsionalitas sistem, tetapi juga pada pengalaman pengguna yang memikat. Pendekatan saya melibatkan perhatian khusus pada detail desain, penataan elemen, dan optimasi kinerja. Saya percaya bahwa desain yang baik adalah kunci untuk membangun merek produk yang kuat. Saya suka bekerja dengan teknologi terbaru dan selalu mencari cara baru untuk meningkatkan keterampilan pengembangan web saya. Jika Anda memiliki proyek menarik atau peluang kolaborasi, saya akan senang mendengarnya."
+    },
 
     "contacts": {
       "facebook": {
@@ -277,24 +279,28 @@
       {
         "img": "../public/assets/project/layout_radian.png",
         "title": "Radian Edu Solution",
+        "category": "Web Desain",
         "url": "#",
         "title_color": "#0096FF"
       },
       {
         "img": "../public/assets/project/layout_logbook.png",
         "title": "Employee Work Record Book",
+        "category": "Web Desain",
         "url": "#",
         "title_color": "#1E429F"
       },
       {
         "img": "../public/assets/project/layout_montoon.png",
         "title": "Moonton Movie",
+        "category": "Web Desain",
         "url": "#",
         "title_color": "#FB6908"
       },
       {
         "img": "../public/assets/project/layout_niaga_shop.png",
         "title": "Niaga Shop",
+        "category": "Web Design",
         "url": "#",
         "title_color": "#FBA11A"
       }

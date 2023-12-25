@@ -22,9 +22,9 @@ const Navbar = ({ selectLanguage }) => {
 
   return (
     <>
-      <nav className="fixed w-full flex justify-center px-6 bg-sr-black border-b border-gray-600 z-50 hp:border-none">
+      <nav className="fixed font-poppins w-full flex justify-center px-4 hp:px-6 bg-sr-black border-b border-gray-600 z-50 hp:border-none">
         <div className="flex flex-row justify-between items-center h-[80px] hp:h-[100px] max-w-[1260px] w-full">
-          <h1 className="text-2xl hp:text-3xl text-white font-semibold">
+          <h1 className="text-xl hp:text-2xl text-white font-semibold">
             Fadel<span className="text-pr-lavender">.</span>
           </h1>
 
@@ -51,7 +51,7 @@ const Navbar = ({ selectLanguage }) => {
                       className={`group px-2 h-full flex items-center relative hover:text-pr-lavender cursor-pointer `}
                     >
                       <div className="flex flex-row items-center gap-2">
-                        <span className="block text-lg">{menu.name}</span>
+                        <span className="block text-base">{menu.name}</span>
                       </div>
                     </NavLink>
                   )}
@@ -61,7 +61,7 @@ const Navbar = ({ selectLanguage }) => {
                       className={`group px-2 h-full flex items-center relative hover:text-pr-lavender cursor-pointer `}
                     >
                       <div className="flex flex-row items-center gap-2">
-                        <span className="block text-lg">{menu.name}</span>
+                        <span className="block text-base">{menu.name}</span>
 
                         <span className="text-2xl flex items-center group-hover:rotate-180 ease-in-out duration-300">
                           <ion-icon
@@ -83,7 +83,7 @@ const Navbar = ({ selectLanguage }) => {
                               }`}
                               key={index}
                             >
-                              <span className="text-lg">{sub.country}</span>
+                              <span className="text-base">{sub.country}</span>
                               <span className="flex items-center text-2xl">
                                 <ion-icon
                                   className="block"
@@ -104,7 +104,7 @@ const Navbar = ({ selectLanguage }) => {
               ))}
             </div>
             <LinkButton
-              url="#"
+              url="#contactMe"
               className="w-fit hover:bg-pr-lavender hover:text-white"
               variant="outline-lavender"
             >
@@ -117,14 +117,14 @@ const Navbar = ({ selectLanguage }) => {
       <div
         className={` ${
           activeMenu ? "block" : "hidden"
-        } ipad:hidden right-0 mr-0 hp:mr-6 mt-0 hp:mt-28 min-h-screen hp:min-h-fit fixed block bg-sr-black pt-[80px] hp:pt-0 text-white rounded-md overflow-hidden w-full hp:w-80 z-40`}
+        } font-poppins ipad:hidden right-0 mr-0 hp:mr-6 mt-0 hp:mt-28 min-h-screen hp:min-h-fit fixed block bg-sr-black pt-[88px] hp:pt-0 text-white rounded-md overflow-hidden w-full hp:w-80 z-40`}
       >
         {MenuItems.map((menu, index) => (
           <div className="fit" key={index}>
             {!menu.subMenu && (
               <NavLink to={menu.route} className="cursor-pointer">
-                <div className="px-6 py-5 flex flex-row justify-between w-full items-center gap-2 hover:text-pr-lavender">
-                  <span className="block text-lg">{menu.name}</span>
+                <div className="px-4 hp:px-6 py-5 flex flex-row justify-between w-full items-center gap-2 hover:text-pr-lavender">
+                  <span className="block text-base">{menu.name}</span>
                 </div>
               </NavLink>
             )}
@@ -134,8 +134,8 @@ const Navbar = ({ selectLanguage }) => {
                 className="cursor-pointer"
                 onClick={() => setActivIetemMenu(!activeItemMenu)}
               >
-                <div className="px-6 py-5 flex flex-row justify-between w-full items-center gap-2 hover:text-pr-lavender">
-                  <span className="block text-lg">{menu.name}</span>
+                <div className="px-4 hp:px-6 py-5 flex flex-row justify-between w-full items-center gap-2 hover:text-pr-lavender">
+                  <span className="block text-base">{menu.name}</span>
 
                   <span
                     className={`pr-2 text-2xl flex items-center ease-in-out duration-300 ${
@@ -149,7 +149,7 @@ const Navbar = ({ selectLanguage }) => {
                   </span>
                 </div>
 
-                <div className={`px-6 ${activeItemMenu ? "block" : "hidden"}`}>
+                <div className={`px-4 hp:px-6 ${activeItemMenu ? "block" : "hidden"}`}>
                   <div className="w-full bg-tr-black rounded-md">
                     {menu.subMenu.map((sub, index) => (
                       <div
@@ -165,7 +165,7 @@ const Navbar = ({ selectLanguage }) => {
                         }`}
                         key={index}
                       >
-                        <span className="text-lg">{sub.country}</span>
+                        <span className="text-base">{sub.country}</span>
                         <span className="flex items-center text-2xl">
                           <ion-icon
                             className="block"
@@ -185,9 +185,10 @@ const Navbar = ({ selectLanguage }) => {
             )}
           </div>
         ))}
-        <div className="px-6 py-5 w-full">
+        <div className="px-4 hp:px-6 py-5 w-full">
           <LinkButton
-            url="#"
+            url="#contactMe"
+            handleClick={() => setActive(false)}
             className="w-fit hover:bg-pr-lavender hover:text-white"
             variant="outline-lavender"
           >

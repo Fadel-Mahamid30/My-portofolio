@@ -1,17 +1,17 @@
 
 .btn-primary-lavender {
-    @apply bg-pr-lavender text-white px-[16px] ipad:px-[20px] py-[10px] ipad:py-[15px] rounded-md;
+    @apply bg-pr-lavender text-white px-[16px] px-[20px] py-[10px] py-[15px] rounded-md;
 }
 
-.btn-primary-white {
-    @apply bg-white text-tr-black px-[16px] ipad:px-[20px] py-[10px] ipad:py-[15px] rounded-md;
+.btn-primary-light {
+    @apply bg-white text-tr-black px-[16px] px-[20px] py-[10px] py-[15px] rounded-md;
 }
 
 .btn-outline-light {
-    @apply bg-none text-white border border-white px-[16px] ipad:px-[20px] py-[10px] ipad:py-[15px] rounded-md;
+    @apply bg-none text-white border border-white px-[16px] px-[20px] py-[10px] py-[15px] rounded-md;
 }
 
 .btn-outline-lavender {
-    @apply bg-none text-pr-lavender border border-pr-lavender px-[16px] ipad:px-[20px] py-[10px] ipad:py-[15px] rounded-md;
+    @apply bg-none text-pr-lavender border border-pr-lavender px-[16px] px-[20px] py-[10px] py-[15px] rounded-md;
 }
 
