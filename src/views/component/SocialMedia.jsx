@@ -7,8 +7,8 @@ const SocialMedia = ({ social, className="" }) => {
   const ln = social.linkedIn;
 
   return (
-    <div className={`flex flex-row gap-7 items-center w-fit ${className}`}>
-      <p className="text-white font-semibold text-xl">Find Me On</p>
+    <div className={`hidden mini:flex flex-row items-center ${className}`}>
+      <p className="text-white font-semibold text-lg text-nowrap hidden hp:inline-block">Find Me On</p>
       <CircleIcon url={fb.url} icon="logo-facebook" />
       <CircleIcon url={ig.url} icon="logo-instagram" />
       <CircleIcon url={wa.url} icon="logo-whatsapp" />

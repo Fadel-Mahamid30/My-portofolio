@@ -20,9 +20,13 @@ module.exports = {
         "sr-gray": "#999999"
       },
       screens: {
+        'noteBook': '1145px',
+        'tablet': '900px',
+        'miniTablet': '700px',
         'ipad': '800px',
-        'tablet': '1120px',
-        'hp': '500px'
+        'hp': '500px',
+        'miniHp': '400px',
+        'mini': '300px'
       },
     }
   },
