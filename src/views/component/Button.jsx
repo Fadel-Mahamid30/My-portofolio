@@ -4,13 +4,15 @@ const Button = ({
   className = "",
   type = "button",
   variant = "primary-lavender",
-  handleClick
+  handleClick,
+  disible = false
 }) => {
   return (
     <button
       type={type}
       onClick={handleClick}
-      className={`btn-${variant} flex flex-row justify-center items-center gap-1 ${className}`}
+      disabled={disible}
+      className={`btn-${variant} flex flex-row justify-center items-center gap-1 ${className} disabled:opacity-70 disabled:cursor-not-allowed`}
     >
       {icon && (
         <div className="text-xl flex items-center">
