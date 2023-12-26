@@ -1,13 +1,17 @@
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
 import Card from "../component/Card";
+import ScrollToTop from "../component/ScrollToTop";
 
 const About = ({ data, setLanguage }) => {
+
   return (
     <div className="bg-pr-black">
+      <ScrollToTop />
       <Navbar selectLanguage={setLanguage} />
+      
       {data?.profile && (
-        <section id="profile" className="min-h-screen w-full font-poppins">
+        <section id="#about" className="min-h-screen w-full font-poppins">
           <div className="pt-28 hp:pt-36 pb-14 hp:pb-20 px-4 hp:px-6 w-full min-h-screen flex justify-center">
             <div className="max-w-[1260px] w-full">
               <div className="flex flex-col tablet:flex-row gap-10 w-full">
@@ -25,7 +29,7 @@ const About = ({ data, setLanguage }) => {
                     </h1>
                     <div className="flex flex-col gap-4 hp:gap-5">
                       <div className="h-[2px] w-20 bg-sr-gray rounded-sm"></div>
-                      <p className="text-lg text-white font-light">
+                      <p className="text-lg text-white text-justify font-light">
                         {data.profile.about}
                       </p>
                     </div>

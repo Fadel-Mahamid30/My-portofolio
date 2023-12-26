@@ -5,6 +5,7 @@ import Button from "../component/Button";
 import SocialMedia from "../component/SocialMedia";
 import CardProject from "../component/CardProject";
 import Card from "../component/Card";
+import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 // import Swiper core and required modules
@@ -17,11 +18,14 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "../../../public/css/swiper.css";
+import ScrollToTop from "../component/ScrollToTop";
 
 const Home = ({ data, setLanguage }) => {
   const navigate = useNavigate();
+
   return (
     <div className="bg-pr-black">
+      <ScrollToTop />
       <Navbar selectLanguage={setLanguage} />
 
       {/* Home */}
@@ -49,7 +53,7 @@ const Home = ({ data, setLanguage }) => {
 
                     <div className="flex flex-col gap-5">
                       <div className="h-[2px] w-20 bg-sr-gray rounded-sm"></div>
-                      <p className="text-lg text-white font-light">
+                      <p className="text-lg text-justify hp:text-left text-white font-light">
                         {data.profile.visi}
                       </p>
                     </div>

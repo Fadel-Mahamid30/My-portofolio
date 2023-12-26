@@ -3,6 +3,7 @@ import Footer from "../component/Footer";
 import CardProject from "../component/CardProject";
 import Card from "../component/Card";
 import Button from "../component/Button";
+import ScrollToTop from "../component/ScrollToTop";
 import { useState, useEffect } from "react";
 
 const Projects = ({ data, setLanguage }) => {
@@ -22,6 +23,7 @@ const Projects = ({ data, setLanguage }) => {
 
   return (
     <div className="bg-pr-black">
+      <ScrollToTop />
       <Navbar selectLanguage={setLanguage} />
 
       {/* Project  */}
