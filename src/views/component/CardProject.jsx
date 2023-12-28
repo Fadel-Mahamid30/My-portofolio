@@ -33,9 +33,9 @@ const CardProject = ({
         </div>
       </div>
       <div className="ipad:w-fit w-full flex justify-end">
-        <LinkButton url={url} className="w-full hp:w-fit">
-          <span className="text-base w-[98px] font-semibold text-center block text-nowrap">
-            View Details
+        <LinkButton url={url} className="w-full hp:w-fit" icon="logo-github">
+          <span className="text-base font-semibold text-center block text-nowrap">
+            Github
           </span>
         </LinkButton>
       </div>

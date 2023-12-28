@@ -5,7 +5,7 @@ import Button from "../component/Button";
 import SocialMedia from "../component/SocialMedia";
 import CardProject from "../component/CardProject";
 import Card from "../component/Card";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 // import Swiper core and required modules
@@ -20,11 +20,17 @@ import "swiper/css/scrollbar";
 import "../../../public/css/swiper.css";
 import ScrollToTop from "../component/ScrollToTop";
 
+// Aos
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Home = ({ data, setLanguage }) => {
+  const [delay, setDelay] = useState(0);
   const navigate = useNavigate();
+  AOS.init();
 
   return (
-    <div className="bg-pr-black">
+    <div className="bg-pr-black overflow-hidden w-full">
       <ScrollToTop />
       <Navbar selectLanguage={setLanguage} />
 
@@ -32,7 +38,12 @@ const Home = ({ data, setLanguage }) => {
       {data?.profile && (
         <section id="profile" className="min-h-screen w-full font-poppins">
           <div className="pt-32 pb-14 hp:pb-20 px-4 hp:px-6 w-full min-h-screen flex justify-center">
-            <div className="max-w-[1260px] w-full">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              className="max-w-[1260px] w-full"
+            >
               <div className="w-full flex flex-col-reverse tablet:flex-row items-center justify-between h-full gap-6 hp:gap-9">
                 <div className="w-full tablet:max-w-[640px]">
                   <div className="flex gap-10 flex-col">
@@ -114,36 +125,50 @@ const Home = ({ data, setLanguage }) => {
               </h2>
               <div className="flex flex-col gap-6 w-full">
                 {data.projects.slice(0, 3).map((project, index) => (
-                  <CardProject
-                    img={project.img}
-                    title={project.title}
-                    category={project.category}
-                    url={project.url}
-                    title_color={project.title_color}
+                  <div
+                    data-aos="fade-left"
+                    data-aos-delay={index == 0 ? 100 : 100 * (index + 2)}
+                    data-aos-duration="1000"
                     key={index}
-                  />
+                  >
+                    <CardProject
+                      img={project.img}
+                      title={project.title}
+                      category={project.category}
+                      url={project.url}
+                      title_color={project.title_color}
+                    />
+                  </div>
                 ))}
-                <Card className="p-[16px] sm:p-[24px] ipad:p-[40px] rounded-[10px] ipad:rounded-[20px]">
-                  <div className="flex flex-col gap-3 mb-10 ipad:mb-0">
-                    <h3 className="text-2xl text-white font-semibold">
-                      See More Projects
-                    </h3>
-                    <p className="text-lg text-sr-gray">
-                      See more projects I have made
-                    </p>
-                  </div>
-                  <div className="flex justify-end">
-                    <Button
-                      className="w-full hp:w-fit"
-                      icon="list-circle"
-                      variant="primary-light"
-                    >
-                      <span className="text-base font-semibold block">
-                        See More
-                      </span>
-                    </Button>
-                  </div>
-                </Card>
+                <div
+                  data-aos="fade-left"
+                  data-aos-delay={100 * (data.projects.length + 1)}
+                  data-aos-duration="1000"
+                >
+                  <Card
+                    className="p-[16px] sm:p-[24px] ipad:p-[40px] rounded-[10px] ipad:rounded-[20px]"
+                  >
+                    <div className="flex flex-col gap-3 mb-10 ipad:mb-0">
+                      <h3 className="text-2xl text-white font-semibold">
+                        See More Projects
+                      </h3>
+                      <p className="text-lg text-sr-gray">
+                        See more projects I have made
+                      </p>
+                    </div>
+                    <div className="flex justify-end">
+                      <Button handleClick={() => navigate("/projects")}
+                        className="w-full hp:w-fit"
+                        icon="list-circle"
+                        variant="primary-light"
+                      >
+                        <span className="text-base font-semibold block">
+                          See More
+                        </span>
+                      </Button>
+                    </div>
+                  </Card>
+                </div>
               </div>
             </div>
           </div>
@@ -162,6 +187,9 @@ const Home = ({ data, setLanguage }) => {
               <div className="grid grid-cols-1 sm:grid-cols-2 noteBook:grid-cols-4 gap-9 justify-start">
                 {data.advantages.map((advant, index) => (
                   <div
+                    data-aos="fade-right"
+                    data-aos-delay={index === 0 ? 100 : 100 * (index + 2)}
+                    data-aos-duration="1000"
                     className={`w-full flex-shrink-0 justify-start items-center flex flex-col gap-6 ipad:gap-10`}
                     key={index}
                   >
@@ -216,7 +244,12 @@ const Home = ({ data, setLanguage }) => {
                   >
                     {data.testimonials.map((testi, index) => (
                       <SwiperSlide key={index}>
-                        <div className="w-full flex flex-col ipad:flex-row items-start gap-10 bg-tr-black">
+                        <div
+                          data-aos="zoom-in"
+                          data-aos-delay="100"
+                          data-aos-duration="1000"
+                          className="w-full flex flex-col ipad:flex-row items-start gap-10 bg-tr-black"
+                        >
                           <div className="p-0 ipad:p-4 w-full ipad:w-fit bg-qt-black flex-shrink-0 flex rounded-xl">
                             <img
                               src={testi.img}
@@ -229,7 +262,9 @@ const Home = ({ data, setLanguage }) => {
                               <h4 className="text-[28px] font-semibold text-pr-lavender">
                                 {testi.name}
                               </h4>
-                              <p className="text-white text-lg font-medium">{testi.as}</p>
+                              <p className="text-white text-lg font-medium">
+                                {testi.as}
+                              </p>
                             </div>
                             <p className="text-sr-gray text-lg font-light">
                               {testi.evaluation}
@@ -255,7 +290,12 @@ const Home = ({ data, setLanguage }) => {
               <h2 className="text-3xl sm:text-4xl font-semibold text-white w-full text-center mb-9 hp:mb-14">
                 Skills and Tools
               </h2>
-              <div className="w-full">
+              <div
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+                className="w-full"
+              >
                 <Swiper
                   modules={[Autoplay]}
                   spaceBetween={0}
@@ -293,13 +333,17 @@ const Home = ({ data, setLanguage }) => {
                   }}
                   pagination={{ clickable: true }}
                   style={{
-                    paddingBottom: "48px"
+                    paddingBottom: "48px",
                   }}
                 >
                   {data.skills.map((skill, index) => (
                     <SwiperSlide className="w-fit" key={index}>
                       <div className="flex-shrink-0 w-[182px] h-[182px] scale-[0.65] miniHp:scale-75 miniTablet:scale-90 tablet:scale-100 grid items-center justify-center box-skill">
-                        <img className="w-28 flex-shrink-0" src={skill.img} alt="" />
+                        <img
+                          className="w-28 flex-shrink-0"
+                          src={skill.img}
+                          alt=""
+                        />
                       </div>
                     </SwiperSlide>
                   ))}

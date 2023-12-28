@@ -116,14 +116,14 @@
         "img": "../public/assets/project/layout_montoon.png",
         "title": "Moonton Movie",
         "category": "Web Design",
-        "url": "#",
+        "url": "https://github.com/Fadel-Mahamid30/Moonton",
         "title_color": "#FB6908"
       },
       {
         "img": "../public/assets/project/layout_niaga_shop.png",
         "title": "Niaga Shop",
         "category": "Web Design",
-        "url": "#",
+        "url": "https://github.com/Fadel-Mahamid30/Front-End-NiagaShop",
         "title_color": "#FBA11A"
       }
     ],

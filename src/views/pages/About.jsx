@@ -3,19 +3,29 @@ import Footer from "../component/Footer";
 import Card from "../component/Card";
 import ScrollToTop from "../component/ScrollToTop";
 
+// Aos
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const About = ({ data, setLanguage }) => {
+  AOS.init();
 
   return (
-    <div className="bg-pr-black">
+    <div className="bg-pr-black overflow-hidden w-full">
       <ScrollToTop />
       <Navbar selectLanguage={setLanguage} />
-      
+
       {data?.profile && (
         <section id="#about" className="min-h-screen w-full font-poppins">
           <div className="pt-28 hp:pt-36 pb-14 hp:pb-20 px-4 hp:px-6 w-full min-h-screen flex justify-center">
             <div className="max-w-[1260px] w-full">
               <div className="flex flex-col tablet:flex-row gap-10 w-full">
-                <div className="w-full tablet:max-w-[400px] max-h-[500px] flex-shrink-0 rounded-xl overflow-hidden">
+                <div
+                  data-aos="fade-right"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                  className="w-full tablet:max-w-[400px] max-h-[500px] flex-shrink-0 rounded-xl overflow-hidden"
+                >
                   <img
                     src={data.profile.foto_profile_2}
                     alt=""
@@ -23,7 +33,12 @@ const About = ({ data, setLanguage }) => {
                   />
                 </div>
                 <div className="flex flex-col gap-10">
-                  <div className="flex flex-col gap-5 tablet:gap-8">
+                  <div
+                    data-aos="fade-left"
+                    data-aos-delay="100"
+                    data-aos-duration="1000"
+                    className="flex flex-col gap-5 tablet:gap-8"
+                  >
                     <h1 className="text-3xl hp:text-5xl font-semibold text-white">
                       About Me
                     </h1>
@@ -35,7 +50,12 @@ const About = ({ data, setLanguage }) => {
                     </div>
                   </div>
                   {data?.educations && (
-                    <div className="flex flex-col gap-5">
+                    <div
+                      data-aos="fade-left"
+                      data-aos-delay="200"
+                      data-aos-duration="1000"
+                      className="flex flex-col gap-5"
+                    >
                       <h3 className="text-2xl hp:text-3xl font-semibold text-white">
                         Educations
                       </h3>
@@ -80,7 +100,12 @@ const About = ({ data, setLanguage }) => {
                   )}
 
                   {data?.careers && (
-                    <div className="flex flex-col gap-5">
+                    <div
+                      data-aos="fade-left"
+                      data-aos-delay="200"
+                      data-aos-duration="1000"
+                      className="flex flex-col gap-5"
+                    >
                       <h3 className="text-2xl hp:text-3xl font-semibold text-white">
                         Careers
                       </h3>
