@@ -2,7 +2,7 @@
   "english": {
     "profile": {
       "foto_profile_1": "/assets/profile/profile_1.png",
-      "foto_profile_2": "/assets/profile/profile_2.JPG",
+      "foto_profile_2": "/assets/profile/profile_2.jpg",
       "intro": "I am",
       "regards": "Hi everyone",
       "name": "Fadel Mahamid Ahmad",
@@ -178,7 +178,7 @@
         "img": "/assets/skill_and_tools/logo_css.png"
       },
       {
-        "img": "/assets/skill_and_tools/logo_javascript.png"
+        "img": "/assets/skill_and_tools/logo_javaScript.png"
       },
       {
         "img": "/assets/skill_and_tools/logo_php.png"
@@ -207,7 +207,7 @@
   "indonesia": {
     "profile": {
       "foto_profile_1": "/assets/profile/profile_1.png",
-      "foto_profile_2": "/assets/profile/profile_2.JPG",
+      "foto_profile_2": "/assets/profile/profile_2.jpg",
       "intro": "Saya",
       "regards": "Halo Semua",
       "name": "Fadel Mahamid Ahmad",
@@ -383,7 +383,7 @@
         "img": "/assets/skill_and_tools/logo_css.png"
       },
       {
-        "img": "/assets/skill_and_tools/logo_javascript.png"
+        "img": "/assets/skill_and_tools/logo_javaScript.png"
       },
       {
         "img": "/assets/skill_and_tools/logo_php.png"

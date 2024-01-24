@@ -59,7 +59,7 @@ const Footer = ({ contacts, content }) => {
 
           <div className="absolute flex items-center h-full right-0 top-0 opacity-30 hp:opacity-100">
             <img
-              src="../public/assets/icon/icon_footer.png"
+              src="/assets/icon/icon_footer.png"
               alt=""
               className="w-full"
             />
