@@ -1,259 +1,411 @@
 {
-    "english": {
-        "profile" : [
-            {
-                "foto_profile_1": "../public/assets/profile/profile_1.png",
-                "foto_profile_2": "../public/assets/profile/profile_1.png",
-                "name": "Fadel Mahamid Ahmad",
-                "occupation": "Web Developer",
-                "visi": "As a web developer, my enthusiasm lies in perfecting the harmony between system functionality and client interface design. I recognize the significance of an appealing layout in enhancing the product's branding. My approach involves a meticulous focus on system architecture, ensuring seamless functionality, and a keen eye for client-side visual details to elevate the overall user experience.",
-                "about": "Regards! I'm Fadel Mahamid Ahmad, a web developer passionate about creating engaging and functional online experiences. I have expertise in developing reliable web systems and attractive interfaces for users. With my background in web development, I recognize the importance of attractive design in building a product image. I not only focus on system functionality, but also on a compelling user experience. My approach involves special attention to design-details, arrangement of elements, and optimization of performance. I believe that good design is the key to building a strong product brand. I love working with the latest technology and am always looking for new ways to improve my web development skills. If you have any interesting projects or collaboration opportunities, I'd love to hear about them."
-            }
-        ],
-    
-        "contacts": {
-            "facebook": {
-                "contact": "Fadel Mahamid Ahmad",
-                "url": "#"
-            },
-            "whatsApp": {
-                "contact": "Fadel Mahamid Ahmad",
-                "url": "#"
-            },
-            "instagram": {
-                "contact": "fadelmahamid30",
-                "url": "#"
-            },
-            "linkIn": {
-                "contact": "Fadel Mahamid Ahmad",
-                "url": "#"
-            }, 
-            "email": {
-                "contact": "fadelmahamid107@gmail.com",
-                "url": "#"
-            },
-            "phone": {
-                "contact": "0857-1067-8986",
-                "url": "#"
-            },
-            "address": {
-                "conctat": "Kp. Bojong RT. 04 RW. 03 No. 31, Kec. Citeureup, Kab. Bogor, Jawa Barat",
-                "url": "#"
-            }
-        },
-    
-        "educations": [
-            {
-                "img": "../public/assets/education/logo_lp3i.png",
-                "universitas": "Politeknik LP3I Jakarta",
-                "prodi": "Informatics Management",
-                "study_period": "2020 - 2023",
-                "descriptions": "I have obtained a diploma in informatics management from the LP3I Jakarta Polytechnic Campus. There, I learned and honed my skills in website development."
-            }
-        ],
-    
-        "careesrs": [
-            {
-                "img": "../public/assets/careers/logo_radian.png",
-                "position": "Web Developer",
-                "company": "Radian Solusi Indonesia",
-                "working period": "Aug 2022 - Feb 2023",
-                "descriptions": "I have obtained a diploma in informatics management from the LP3I Jakarta Polytechnic Campus. There, I learned and honed my skills in website development."
-            }
-        ],
-    
-        "advantages": [
-            {
-                "icon": "../public/assets/icon/icon_workaholic.png",
-                "advantage": "Workaholic",
-                "descriptions": "I'm the type of person who can't just keep quiet; I tend to always be productive."
-            },
-            {
-                "icon": "../public/assets/icon/icon_communicative.png",
-                "advantage": "Communicative",
-                "descriptions": "I have good verbal comprehension, enabling me to convey messages effectively to the recipient."
-            },
-            {
-                "icon": "../public/assets/icon/icon_cooperative.png",
-                "advantage": "Cooperative",
-                "descriptions": "Successful projects are often the result of good, solid teamwork. I am very good at building good partnerships and maintaining consistency with the main goal."
-            },
-            {
-                "icon": "../public/assets/icon/icon_perfectionist.png",
-                "advantage": "Perfectionist",
-                "descriptions": "My strong intuition ensures that I consistently adhere to high quality standards, and can deliver worthy results."
-            }
-        ],
-    
-        "projects": [
-            {
-                "img_project": "../public/assets/project/layout_radian.png",
-                "name": "Website Radian Edu Solution",
-                "url": "#",
-                "title_color": "#0096FF"
-            },
-            {
-                "img_project": "../public/assets/project/layout_logbook.png",
-                "name": "Website Employee Work Record Book",
-                "url": "#",
-                "title_color": "#1E429F"
-            },
-            {
-                "img_project": "../public/assets/project/layout_montoon.png",
-                "name": "Website Moonton",
-                "url": "#",
-                "title_color": "#FB6908"
-            },
-            {
-                "img_project": "../public/assets/project/layout_niaga_shop.png",
-                "name": "Website Niaga Shop",
-                "url": "#",
-                "title_color": "#FBA11A"
-            }
-        ],
-    
-        "testimonials": [
-            {
-                "img": "../public/assets/testimonial/aris.png",
-                "name": "Riski Aris Sandy",
-                "as": "Work Colleague",
-                "evaluation": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, necessitatibus error! Et dolorum vel laborum optio, id quibusdam dolorem consequatur maxime cupiditate accusantium. Temporibus mollitia fugit voluptatem soluta possimus ut pariatur consequuntur explicabo omnis quo sint quas dolores perspiciatis quae accusantium voluptate fugiat ipsam atque ratione, obcaecati harum saepe quia."
-            },
-            {
-                "img": "../public/assets/testimonial/angga.png",
-                "name": "Angga",
-                "as": "CNP LP3I",
-                "evaluation": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, necessitatibus error! Et dolorum vel laborum optio, id quibusdam dolorem consequatur maxime cupiditate accusantium. Temporibus mollitia fugit voluptatem soluta possimus ut pariatur consequuntur explicabo omnis quo sint quas dolores perspiciatis quae accusantium voluptate fugiat ipsam atque ratione, obcaecati harum saepe quia."
-            }
-        ]
+  "english": {
+    "profile": {
+      "foto_profile_1": "../public/assets/profile/profile_1.png",
+      "foto_profile_2": "../public/assets/profile/profile_2.JPG",
+      "intro": "I am",
+      "regards": "Hi everyone",
+      "name": "Fadel Mahamid Ahmad",
+      "occupation": "Web Developer",
+      "visi": "As a web developer, my enthusiasm lies in perfecting the alignment between system functionality and client interface design. I realize the importance of an attractive layout and good system functionality so that it will enhance a good experience for users. My approach involves special attention to the interface, the arrangement of elements, and the functionality of the system.",
+      "about": "Hi! Let me introduce myself, my name is Fadel Mahamid Ahmad, I am a web developer who is passionate about learning new things. I have quite good skills in developing or building web-based sites. In developing the web, I not only focus on system functionality, but also focus on building an attractive interface so that it can enhance a good experience for the user. My approach involves special attention to the interface, the arrangement of elements, and the functionality of the system. In the front-end field, I have quite good experience in using HTML, CSS, and JavaScript, and am able to implement front-end frameworks such as React and Tailwind CSS. I also understand the importance of responsiveness and attractive interface design. Along with that, on the back-end side, I have used the PHP programming language and understand server-side development concepts and am able to implement back-end frameworks such as Laravel. For databases, I have good experience in using MySQL. I enjoy working to gain experience and am always looking for new ways to improve my skills in the field of web development. If you have any interesting projects or collaboration opportunities, I'd love to hear about them."
     },
 
-    "indonesia": {
-        "profile": [
-            {
-              "foto_profile_1": "../public/assets/profile/profile_1.png",
-              "foto_profile_2": "../public/assets/profile/profile_1.png",
-              "name": "Fadel Mahamid Ahmad",
-              "occupation": "Web Developer",
-              "visi": "Sebagai pengembang web, antusiasme saya terletak pada menyempurnakan harmoni antara fungsionalitas sistem dan desain antarmuka klien. Saya menyadari pentingnya tata letak yang menarik dalam meningkatkan citra produk. Pendekatan saya melibatkan fokus yang cermat pada arsitektur sistem, memastikan fungsionalitas yang mulus, dan mata yang tajam untuk detail visual di sisi klien untuk meningkatkan pengalaman pengguna secara keseluruhan.",
-              "about": "Halo! Saya Fadel Mahamid Ahmad, seorang pengembang web yang antusias tentang menciptakan pengalaman online yang menarik dan fungsional. Saya memiliki keahlian dalam mengembangkan sistem web yang handal dan antarmuka yang menarik bagi pengguna. Dengan latar belakang saya dalam pengembangan web, saya menyadari pentingnya desain yang menarik dalam membangun citra produk. Saya tidak hanya fokus pada fungsionalitas sistem, tetapi juga pada pengalaman pengguna yang memikat. Pendekatan saya melibatkan perhatian khusus pada detail desain, penataan elemen, dan optimasi kinerja. Saya percaya bahwa desain yang baik adalah kunci untuk membangun merek produk yang kuat. Saya suka bekerja dengan teknologi terbaru dan selalu mencari cara baru untuk meningkatkan keterampilan pengembangan web saya. Jika Anda memiliki proyek menarik atau peluang kolaborasi, saya akan senang mendengarnya."
-            }
-          ],
-          
-          "contacts": {
-            "facebook": {
-              "contact": "Fadel Mahamid Ahmad",
-              "url": "#"
-            },
-            "whatsApp": {
-              "contact": "Fadel Mahamid Ahmad",
-              "url": "#"
-            },
-            "instagram": {
-              "contact": "fadelmahamid30",
-              "url": "#"
-            },
-            "linkIn": {
-              "contact": "Fadel Mahamid Ahmad",
-              "url": "#"
-            }, 
-            "email": {
-              "contact": "fadelmahamid107@gmail.com",
-              "url": "#"
-            },
-            "phone": {
-              "contact": "0857-1067-8986",
-              "url": "#"
-            },
-            "address": {
-              "contact": "Kp. Bojong RT. 04 RW. 03 No. 31, Kec. Citeureup, Kab. Bogor, Jawa Barat",
-              "url": "#"
-            }
-          },
-          
-          "educations": [
-            {
-              "img": "../public/assets/education/logo_lp3i.png",
-              "universitas": "Politeknik LP3I Jakarta",
-              "prodi": "Manajemen Informatika",
-              "study_period": "2020 - 2023",
-              "descriptions": "Saya telah memperoleh diploma dalam manajemen informatika dari Kampus Politeknik LP3I Jakarta. Di sana, saya belajar dan mengasah keterampilan saya dalam pengembangan situs web."
-            }
-          ],
-          
-          "careers": [
-            {
-              "img": "../public/assets/careers/logo_radian.png",
-              "position": "Pengembang Web",
-              "company": "Radian Solusi Indonesia",
-              "working_period": "Ags 2022 - Feb 2023",
-              "descriptions": "Saya telah memperoleh diploma dalam manajemen informatika dari Kampus Politeknik LP3I Jakarta. Di sana, saya belajar dan mengasah keterampilan saya dalam pengembangan situs web."
-            }
-          ],
-          
-          "advantages": [
-            {
-              "icon": "../public/assets/icon/icon_workaholic.png",
-              "advantage": "Pekerja Keras",
-              "descriptions": "Saya tipe orang yang tidak bisa diam; Saya cenderung selalu produktif."
-            },
-            {
-              "icon": "../public/assets/icon/icon_communicative.png",
-              "advantage": "Komunikatif",
-              "descriptions": "Saya memiliki pemahaman verbal yang baik, memungkinkan saya menyampaikan pesan secara efektif kepada penerima."
-            },
-            {
-              "icon": "../public/assets/icon/icon_cooperative.png",
-              "advantage": "Kooperatif",
-              "descriptions": "Proyek-proyek yang sukses seringkali merupakan hasil kerja sama tim yang baik dan solid. Saya sangat baik dalam membangun kemitraan yang baik dan menjaga konsistensi dengan tujuan utama."
-            },
-            {
-              "icon": "../public/assets/icon/icon_perfectionist.png",
-              "advantage": "Perfectionist",
-              "descriptions": "Intuisi saya yang kuat memastikan bahwa saya konsisten mematuhi standar kualitas tinggi dan dapat memberikan hasil yang layak."
-            }
-          ],
-          
-          "projects": [
-            {
-              "img_project": "../public/assets/project/layout_radian.png",
-              "name": "Website Radian Edu Solution",
-              "url": "#",
-              "title_color": "#0096FF"
-            },
-            {
-              "img_project": "../public/assets/project/layout_logbook.png",
-              "name": "Website Employee Work Record Book",
-              "url": "#",
-              "title_color": "#1E429F"
-            },
-            {
-              "img_project": "../public/assets/project/layout_montoon.png",
-              "name": "Website Moonton",
-              "url": "#",
-              "title_color": "#FB6908"
-            },
-            {
-              "img_project": "../public/assets/project/layout_niaga_shop.png",
-              "name": "Website Niaga Shop",
-              "url": "#",
-              "title_color": "#FBA11A"
-            }
-          ],
-          
-          "testimonials": [
-            {
-              "img": "../public/assets/testimonial/aris.png",
-              "name": "Riski Aris Sandy",
-              "as": "Rekan Kerja",
-              "evaluation": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, necessitatibus error! Et dolorum vel laborum optio, id quibusdam dolorem consequatur maxime cupiditate accusantium. Temporibus mollitia fugit voluptatem soluta possimus ut pariatur consequuntur explicabo omnis quo sint quas dolores perspiciatis quae accusantium voluptate fugiat ipsam atque ratione, obcaecati harum saepe quia."
-            },
-            {
-              "img": "../public/assets/testimonial/angga.png",
-              "name": "Angga",
-              "as": "CNP LP3I",
-              "evaluation": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, necessitatibus error! Et dolorum vel laborum optio, id quibusdam dolorem consequatur maxime cupiditate accusantium. Temporibus mollitia fugit voluptatem soluta possimus ut pariatur consequuntur explicabo omnis quo sint quas dolores perspiciatis quae accusantium voluptate fugiat ipsam atque ratione, obcaecati harum saepe quia."
-            }
-          ]                    
-    }
+    "contacts": {
+      "facebook": {
+        "title": "FaceBook",
+        "contact": "Fadel Mahamid Ahmad",
+        "url": "https://www.facebook.com/fadel.p.zein/"
+      },
+      "whatsApp": {
+        "title": "WhatsApp",
+        "contact": "Fadel Mahamid Ahmad",
+        "url": "https://wa.me/085710678986"
+      },
+      "instagram": {
+        "title": "Instagram",
+        "contact": "fadelmahamid30",
+        "url": "https://www.instagram.com/fadelahmad30/"
+      },
+      "linkedIn": {
+        "title": "LinkedIn",
+        "contact": "Fadel Mahamid Ahmad",
+        "url": "#"
+      },
+      "email": {
+        "title": "Email",
+        "contact": "fadelmahamid107@gmail.com",
+        "url": "#"
+      },
+      "phone": {
+        "title": "Phone",
+        "contact": "0857-1067-8986",
+        "url": "#"
+      },
+      "address": {
+        "title": "Address",
+        "contact": "Kp. Bojong RT. 04 RW. 03 No. 31, Kec. Citeureup, Kab. Bogor, Jawa Barat",
+        "url": "#"
+      }
+    },
+
+    "footerContent": {
+      "title": "Contact Me",
+      "descriptions": "For questions about work and collaboration opportunities, pleasecontact me. I hope to contribute to your project."
+    },
+
+    "educations": [
+      {
+        "img": "../public/assets/education/logo_lp3i.png",
+        "universitas": "Politeknik LP3I Jakarta",
+        "prodi": "Informatics Management",
+        "study_period": "2020 - 2023",
+        "descriptions": "I have obtained a diploma in informatics management from the LP3I Jakarta Polytechnic Campus. There, I learned and honed my skills in the field of web development."
+      }
+    ],
+
+    "careers": [
+      {
+        "img": "../public/assets/careers/logo_radian.png",
+        "position": "Web Developer",
+        "company": "Radian Solusi Indonesia",
+        "working_period": "Aug 2022 - Feb 2023",
+        "descriptions": "I manage WordPress websites, manage student grade data, pilot Moodle websites, and build websites for corporate purposes."
+      }
+    ],
+
+    "advantages": [
+      {
+        "icon": "../public/assets/icon/icon_workaholic.png",
+        "advantage": "Workaholic",
+        "descriptions": "I am the type of person who can't just sit still, I tend to always be productive."
+      },
+      {
+        "icon": "../public/assets/icon/icon_communicative.png",
+        "advantage": "Communicative",
+        "descriptions": "I have good communication skills, allowing me to convey messages well to the recipient."
+      },
+      {
+        "icon": "../public/assets/icon/icon_cooperative.png",
+        "advantage": "Cooperative",
+        "descriptions": "Successful projects are often the result of great and extraordinary teamwork. I am very good at building good partnerships and maintaining consistency with the main goal."
+      },
+      {
+        "icon": "../public/assets/icon/icon_perfectionist.png",
+        "advantage": "Perfectionist",
+        "descriptions": "My strong intuition ensures that I consistently adhere to high quality standards, and can deliver worthy result."
+      }
+    ],
+
+    "projects": [
+      {
+        "img": "../public/assets/project/layout_radian.png",
+        "title": "Radian Edu Solution",
+        "category": "Web Design",
+        "url": "#",
+        "title_color": "#0096FF"
+      },
+      {
+        "img": "../public/assets/project/layout_logbook.png",
+        "title": "Employee Work Record Book",
+        "category": "Web Design",
+        "url": "https://github.com/Fadel-Mahamid30/Reacrd-Book-App/tree/master",
+        "title_color": "#1E429F"
+      },
+      {
+        "img": "../public/assets/project/layout_montoon.png",
+        "title": "Moonton Movie",
+        "category": "Web Design",
+        "url": "https://github.com/Fadel-Mahamid30/Moonton",
+        "title_color": "#FB6908"
+      },
+      {
+        "img": "../public/assets/project/layout_niaga_shop.png",
+        "title": "Niaga Shop",
+        "category": "Web Design",
+        "url": "https://github.com/Fadel-Mahamid30/Front-End-NiagaShop",
+        "title_color": "#FBA11A"
+      }
+    ],
+
+    "testimonials": [
+      {
+        "img": "../public/assets/testimonial/aris.png",
+        "name": "Riski Aris Sandy",
+        "as": "Work Colleague",
+        "evaluation": "Fadel is an extraordinary teammate in building web design and UI/UX projects. His expertise in presenting attractive and functional interfaces really helped us in completing our projects. I highly recommend to anyone who needs a reliable web designer."
+      },
+      {
+        "img": "../public/assets/testimonial/anggara.jpg",
+        "name": "Angga",
+        "as": "CNP LP3I",
+        "evaluation": "As an Informatics Management student, Fadel has a high level of responsibility and a good attitude. He enjoys learning new things, especially in programming languages. With such abilities and enthusiasm for learning, I am sure that Fadel will make a good contribution to the agency or company."
+      }
+    ],
+
+    "certificate": [
+      {
+        "img": "../public/assets/certificate/logo-bnsp.png",
+        "name": "Junior Web Programmer",
+        "publishing_organization": "National Professional Certification Agency (BNSP)",
+        "validity_period": "Issued Sep 2022 Expires Sep 2025",
+        "credential_id": "Credential ID 620903122300040442022",
+        "skill": "Web Developer"
+      },
+      {
+        "img": "../public/assets/certificate/logo-bnsp.png",
+        "name": "Database Administrator",
+        "publishing_organization": "National Professional Certification Agency (BNSP)",
+        "validity_period": "Issued Mar 2022 Expires Mar 2025",
+        "credential_id": "Credential ID 620903122300002412022",
+        "skill": "MySql"
+      },
+      {
+        "img": "../public/assets/certificate/logo-bnsp.png",
+        "name": "Office Application",
+        "publishing_organization": "National Professional Certification Agency (BNSP)",
+        "validity_period": "Issued Oct 2021 Expires Aug 2024",
+        "credential_id": "Credential ID 620903511300110682021",
+        "skill": "Microsoft Office"
+      }
+    ],
+
+    "skills": [
+      {
+        "img": "../public/assets/skill_and_tools/logo_html.png"
+      },
+      {
+        "img": "../public/assets/skill_and_tools/logo_css.png"
+      },
+      {
+        "img": "../public/assets/skill_and_tools/logo_javascript.png"
+      },
+      {
+        "img": "../public/assets/skill_and_tools/logo_php.png"
+      },
+      {
+        "img": "../public/assets/skill_and_tools/logo_laravel.png"
+      },
+      {
+        "img": "../public/assets/skill_and_tools/logo_mySql.png"
+      },
+      {
+        "img": "../public/assets/skill_and_tools/logo_nodeJs.png"
+      },
+      {
+        "img": "../public/assets/skill_and_tools/logo_jQuery.png"
+      },
+      {
+        "img": "../public/assets/skill_and_tools/logo_reactJs.png"
+      },
+      {
+        "img": "../public/assets/skill_and_tools/logo_tailwindcss.png"
+      }
+    ]
+  },
+
+  "indonesia": {
+    "profile": {
+      "foto_profile_1": "../public/assets/profile/profile_1.png",
+      "foto_profile_2": "../public/assets/profile/profile_2.JPG",
+      "intro": "Saya",
+      "regards": "Halo Semua",
+      "name": "Fadel Mahamid Ahmad",
+      "occupation": "Web Developer",
+      "visi": "Sebagai web developer, antusiasme saya terletak pada menyempurnakan keselarasan antara fungsionalitas sistem dan desain antarmuka klien. Saya menyadari pentingnya tata letak yang menarik serta fungsionalitas sistem yang baik sehingga akan meningkatkan pengalaman yang baik bagi pengguna. Pendekatan saya melibatkan perhatian khusus pada antarmuka, penataan elemen-elemen, dan fungsionalitas sistem.",
+      "about": "Hai! Perkenalkan, nama saya Fadel Mahamid Ahmad, saya seorang web developer yang bersemangat dalam mempelajari hal-hal baru. Saya memiliki keahlian yang cukup baik dalam mengembangkan atau membangun situs berbasis web. Dalam mengembangkan web, saya tidak hanya berfokus pada fungsionalitas sistem, namun juga berfokus dalam membangun antarmuka yang menarik sehingga dapat meningkatkan pengalaman yang baik bagi pengguna. Pendekatan saya melibatkan perhatian khusus pada antarmuka, penataan elemen-elemen, dan fungsionalitas sistem. Di bidang front-end, saya memiliki pengalaman yang cukup baik dalam menggunakan HTML, CSS, dan JavaScript, serta mampu mengimplementasikan framework front-end seperti React dan Tailwind CSS. Saya juga memahami pentingnya responsivitas dan desain antarmuka yang menarik. Seiring dengan itu, di sisi back-end, saya telah menggunakan bahasa pemrograman PHP dan memahami konsep-konsep server-side development serta mampu mengimplementasikan framework back-end seperti Laravel. Untuk basis data, saya memiliki pengalaman yang baik dalam menggunakan MySQL. Saya senang bekerja untuk mencari pengalaman dan selalu mencari cara baru untuk meningkatkan keterampilan saya dalam bidang web developer. Jika Anda memiliki proyek menarik atau peluang kerja sama, saya akan senang mendengarnya."
+    },
+
+    "contacts": {
+      "facebook": {
+        "title": "FaceBook",
+        "contact": "Fadel Mahamid Ahmad",
+        "url": "https://www.facebook.com/fadel.p.zein/"
+      },
+      "whatsApp": {
+        "title": "WhatsApp",
+        "contact": "Fadel Mahamid Ahmad",
+        "url": "https://wa.me/085710678986"
+      },
+      "instagram": {
+        "title": "Instagram",
+        "contact": "fadelmahamid30",
+        "url": "https://www.instagram.com/fadelahmad30/"
+      },
+      "linkedIn": {
+        "title": "LinkedIn",
+        "contact": "Fadel Mahamid Ahmad",
+        "url": "#"
+      },
+      "email": {
+        "title": "Email",
+        "contact": "fadelmahamid107@gmail.com",
+        "url": "#"
+      },
+      "phone": {
+        "title": "Nomor Handphone",
+        "contact": "0857-1067-8986",
+        "url": "#"
+      },
+      "address": {
+        "title": "Alamat",
+        "contact": "Kp. Bojong RT. 04 RW. 03 No. 31, Kec. Citeureup, Kab. Bogor, Jawa Barat",
+        "url": "#"
+      }
+    },
+
+    "footerContent": {
+      "title": "Contact Me",
+      "descriptions": "Untuk pertanyaan tentang peluang kerja dan kolaborasi, silakan hubungi saya. Saya berharap dapat berkontribusi pada proyek Anda."
+    },
+
+    "educations": [
+      {
+        "img": "../public/assets/education/logo_lp3i.png",
+        "universitas": "Politeknik LP3I Jakarta",
+        "prodi": "Manajemen Informatika",
+        "study_period": "2020 - 2023",
+        "descriptions": "Saya telah memperoleh gelar diploma  manajemen informatika dari Kampus Politeknik LP3I Jakarta. Di sana, saya belajar dan mengasah keterampilan saya dalam bidang web developer."
+      }
+    ],
+
+    "careers": [
+      {
+        "img": "../public/assets/careers/logo_radian.png",
+        "position": "Pengembang Web",
+        "company": "Radian Solusi Indonesia",
+        "working_period": "Ags 2022 - Feb 2023",
+        "descriptions": "Saya mengelola situs web WordPress, mengelola data nilai siswa, melakukan uji coba situs web Moodle, dan membangun situs web untuk keperluan perusahaan."
+      }
+    ],
+
+    "advantages": [
+      {
+        "icon": "../public/assets/icon/icon_workaholic.png",
+        "advantage": "Pekerja Keras",
+        "descriptions": "Saya adalah tipe orang yang tidak bisa diam saja, saya cenderung selalu produktif."
+      },
+      {
+        "icon": "../public/assets/icon/icon_communicative.png",
+        "advantage": "Komunikatif",
+        "descriptions": "Saya memiliki komunikasi yang baik, memungkinkan saya menyampaikan pesan dengan baik kepada penerima."
+      },
+      {
+        "icon": "../public/assets/icon/icon_cooperative.png",
+        "advantage": "Kooperatif",
+        "descriptions": "Proyek yang berhasil seringkali merupakan hasil kerja tim yang hebat dan luar biasa. Saya sangat pandai membangun kerjasama yang baik dan menjaga konsistensi dengan tujuan utama."
+      },
+      {
+        "icon": "../public/assets/icon/icon_perfectionist.png",
+        "advantage": "Perfectionist",
+        "descriptions": "Intuisi saya yang kuat memastikan bahwa saya secara konsisten mematuhi standar dengan kualitas tinggi, dan dapat memberikan hasil yang layak."
+      }
+    ],
+
+    "projects": [
+      {
+        "img": "../public/assets/project/layout_radian.png",
+        "title": "Radian Edu Solution",
+        "category": "Web Desain",
+        "url": "#",
+        "title_color": "#0096FF"
+      },
+      {
+        "img": "../public/assets/project/layout_logbook.png",
+        "title": "Employee Work Record Book",
+        "category": "Web Design",
+        "url": "https://github.com/Fadel-Mahamid30/Reacrd-Book-App/tree/master",
+        "title_color": "#1E429F"
+      },
+      {
+        "img": "../public/assets/project/layout_montoon.png",
+        "title": "Moonton Movie",
+        "category": "Web Design",
+        "url": "https://github.com/Fadel-Mahamid30/Moonton",
+        "title_color": "#FB6908"
+      },
+      {
+        "img": "../public/assets/project/layout_niaga_shop.png",
+        "title": "Niaga Shop",
+        "category": "Web Design",
+        "url": "https://github.com/Fadel-Mahamid30/Front-End-NiagaShop",
+        "title_color": "#FBA11A"
+      }
+    ],
+
+    "testimonials": [
+      {
+        "img": "../public/assets/testimonial/aris.png",
+        "name": "Riski Aris Sandy",
+        "as": "Rekan Kerja",
+        "evaluation": "Fadel adalah rekan tim yang luar biasa dalam membangun proyek web design dan UI/UX. Keahliannya dalam menghadirkan antarmuka yang menarik serta fungsional yang baik sungguh membantu dalam menyelesaikan projects kami. Saya sangat merekomendasikan untuk siapapun bila membutuhkan desainer web yang handal."
+      },
+      {
+        "img": "../public/assets/testimonial/anggara.jpg",
+        "name": "Angga",
+        "as": "CNP LP3I",
+        "evaluation": "Sebagai mahasiswa Manajemen Informatika, Fadel memiliki tanggung jawab yang tinggi dan sikap yang baik. Dia senang belajar hal-hal baru, terutama dalam bahasa pemrograman. Dengan kemampuan dan semangat belajar seperti itu, saya yakin Fadel akan memberikan kontribusi yang baik untuk instansi ataupun perusahaan."
+      }
+    ],
+
+    "certificate": [
+      {
+        "img": "../public/assets/certificate/logo-bnsp.png",
+        "name": "Junior Web Programmer",
+        "publishing_organization": "Badan Nasional Sertifikasi Profesi (BNSP)",
+        "validity_period": "Diterbitkan Sep 2022 Kedaluwarsa Sep 2025",
+        "credential_id": "ID Kredensial 620903122300040442022",
+        "skill": "Pengembangan Web"
+      },
+      {
+        "img": "../public/assets/certificate/logo-bnsp.png",
+        "name": "Database Administrator",
+        "publishing_organization": "Badan Nasional Sertifikasi Profesi (BNSP)",
+        "validity_period": "Diterbitkan Mar 2022 Kedaluwarsa Mar 2025",
+        "credential_id": "ID Kredensial 620903122300002412022",
+        "skill": "MySql"
+      },
+      {
+        "img": "../public/assets/certificate/logo-bnsp.png",
+        "name": "Office Application",
+        "publishing_organization": "Badan Nasional Sertifikasi Profesi (BNSP)",
+        "validity_period": "Diterbitkan Okt 2021 Kedaluwarsa Agu 2024",
+        "credential_id": "ID Kredensial 620903511300110682021",
+        "skill": "Microsoft Office"
+      }
+    ],
+
+    "skills": [
+      {
+        "img": "../public/assets/skill_and_tools/logo_html.png"
+      },
+      {
+        "img": "../public/assets/skill_and_tools/logo_css.png"
+      },
+      {
+        "img": "../public/assets/skill_and_tools/logo_javascript.png"
+      },
+      {
+        "img": "../public/assets/skill_and_tools/logo_php.png"
+      },
+      {
+        "img": "../public/assets/skill_and_tools/logo_laravel.png"
+      },
+      {
+        "img": "../public/assets/skill_and_tools/logo_mySql.png"
+      },
+      {
+        "img": "../public/assets/skill_and_tools/logo_nodeJs.png"
+      },
+      {
+        "img": "../public/assets/skill_and_tools/logo_jQuery.png"
+      },
+      {
+        "img": "../public/assets/skill_and_tools/logo_reactJs.png"
+      },
+      {
+        "img": "../public/assets/skill_and_tools/logo_tailwindcss.png"
+      }
+    ]
+  }
 }
