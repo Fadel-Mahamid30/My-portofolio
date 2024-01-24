@@ -1,8 +1,8 @@
 {
   "english": {
     "profile": {
-      "foto_profile_1": "../public/assets/profile/profile_1.png",
-      "foto_profile_2": "../public/assets/profile/profile_2.JPG",
+      "foto_profile_1": "/assets/profile/profile_1.png",
+      "foto_profile_2": "/assets/profile/profile_2.JPG",
       "intro": "I am",
       "regards": "Hi everyone",
       "name": "Fadel Mahamid Ahmad",
@@ -56,7 +56,7 @@
 
     "educations": [
       {
-        "img": "../public/assets/education/logo_lp3i.png",
+        "img": "/assets/education/logo_lp3i.png",
         "universitas": "Politeknik LP3I Jakarta",
         "prodi": "Informatics Management",
         "study_period": "2020 - 2023",
@@ -66,7 +66,7 @@
 
     "careers": [
       {
-        "img": "../public/assets/careers/logo_radian.png",
+        "img": "/assets/careers/logo_radian.png",
         "position": "Web Developer",
         "company": "Radian Solusi Indonesia",
         "working_period": "Aug 2022 - Feb 2023",
@@ -76,22 +76,22 @@
 
     "advantages": [
       {
-        "icon": "../public/assets/icon/icon_workaholic.png",
+        "icon": "/assets/icon/icon_workaholic.png",
         "advantage": "Workaholic",
         "descriptions": "I am the type of person who can't just sit still, I tend to always be productive."
       },
       {
-        "icon": "../public/assets/icon/icon_communicative.png",
+        "icon": "/assets/icon/icon_communicative.png",
         "advantage": "Communicative",
         "descriptions": "I have good communication skills, allowing me to convey messages well to the recipient."
       },
       {
-        "icon": "../public/assets/icon/icon_cooperative.png",
+        "icon": "/assets/icon/icon_cooperative.png",
         "advantage": "Cooperative",
         "descriptions": "Successful projects are often the result of great and extraordinary teamwork. I am very good at building good partnerships and maintaining consistency with the main goal."
       },
       {
-        "icon": "../public/assets/icon/icon_perfectionist.png",
+        "icon": "/assets/icon/icon_perfectionist.png",
         "advantage": "Perfectionist",
         "descriptions": "My strong intuition ensures that I consistently adhere to high quality standards, and can deliver worthy result."
       }
@@ -99,28 +99,28 @@
 
     "projects": [
       {
-        "img": "../public/assets/project/layout_radian.png",
+        "img": "/assets/project/layout_radian.png",
         "title": "Radian Edu Solution",
         "category": "Web Design",
         "url": "#",
         "title_color": "#0096FF"
       },
       {
-        "img": "../public/assets/project/layout_logbook.png",
+        "img": "/assets/project/layout_logbook.png",
         "title": "Employee Work Record Book",
         "category": "Web Design",
         "url": "https://github.com/Fadel-Mahamid30/Reacrd-Book-App/tree/master",
         "title_color": "#1E429F"
       },
       {
-        "img": "../public/assets/project/layout_montoon.png",
+        "img": "/assets/project/layout_montoon.png",
         "title": "Moonton Movie",
         "category": "Web Design",
         "url": "https://github.com/Fadel-Mahamid30/Moonton",
         "title_color": "#FB6908"
       },
       {
-        "img": "../public/assets/project/layout_niaga_shop.png",
+        "img": "/assets/project/layout_niaga_shop.png",
         "title": "Niaga Shop",
         "category": "Web Design",
         "url": "https://github.com/Fadel-Mahamid30/Front-End-NiagaShop",
@@ -130,13 +130,13 @@
 
     "testimonials": [
       {
-        "img": "../public/assets/testimonial/aris.png",
+        "img": "/assets/testimonial/aris.png",
         "name": "Riski Aris Sandy",
         "as": "Work Colleague",
         "evaluation": "Fadel is an extraordinary teammate in building web design and UI/UX projects. His expertise in presenting attractive and functional interfaces really helped us in completing our projects. I highly recommend to anyone who needs a reliable web designer."
       },
       {
-        "img": "../public/assets/testimonial/anggara.jpg",
+        "img": "/assets/testimonial/anggara.jpg",
         "name": "Angga",
         "as": "CNP LP3I",
         "evaluation": "As an Informatics Management student, Fadel has a high level of responsibility and a good attitude. He enjoys learning new things, especially in programming languages. With such abilities and enthusiasm for learning, I am sure that Fadel will make a good contribution to the agency or company."
@@ -145,7 +145,7 @@
 
     "certificate": [
       {
-        "img": "../public/assets/certificate/logo-bnsp.png",
+        "img": "/assets/certificate/logo-bnsp.png",
         "name": "Junior Web Programmer",
         "publishing_organization": "National Professional Certification Agency (BNSP)",
         "validity_period": "Issued Sep 2022 Expires Sep 2025",
@@ -153,7 +153,7 @@
         "skill": "Web Developer"
       },
       {
-        "img": "../public/assets/certificate/logo-bnsp.png",
+        "img": "/assets/certificate/logo-bnsp.png",
         "name": "Database Administrator",
         "publishing_organization": "National Professional Certification Agency (BNSP)",
         "validity_period": "Issued Mar 2022 Expires Mar 2025",
@@ -161,7 +161,7 @@
         "skill": "MySql"
       },
       {
-        "img": "../public/assets/certificate/logo-bnsp.png",
+        "img": "/assets/certificate/logo-bnsp.png",
         "name": "Office Application",
         "publishing_organization": "National Professional Certification Agency (BNSP)",
         "validity_period": "Issued Oct 2021 Expires Aug 2024",
@@ -172,42 +172,42 @@
 
     "skills": [
       {
-        "img": "../public/assets/skill_and_tools/logo_html.png"
+        "img": "/assets/skill_and_tools/logo_html.png"
       },
       {
-        "img": "../public/assets/skill_and_tools/logo_css.png"
+        "img": "/assets/skill_and_tools/logo_css.png"
       },
       {
-        "img": "../public/assets/skill_and_tools/logo_javascript.png"
+        "img": "/assets/skill_and_tools/logo_javascript.png"
       },
       {
-        "img": "../public/assets/skill_and_tools/logo_php.png"
+        "img": "/assets/skill_and_tools/logo_php.png"
       },
       {
-        "img": "../public/assets/skill_and_tools/logo_laravel.png"
+        "img": "/assets/skill_and_tools/logo_laravel.png"
       },
       {
-        "img": "../public/assets/skill_and_tools/logo_mySql.png"
+        "img": "/assets/skill_and_tools/logo_mySql.png"
       },
       {
-        "img": "../public/assets/skill_and_tools/logo_nodeJs.png"
+        "img": "/assets/skill_and_tools/logo_nodeJs.png"
       },
       {
-        "img": "../public/assets/skill_and_tools/logo_jQuery.png"
+        "img": "/assets/skill_and_tools/logo_jQuery.png"
       },
       {
-        "img": "../public/assets/skill_and_tools/logo_reactJs.png"
+        "img": "/assets/skill_and_tools/logo_reactJs.png"
       },
       {
-        "img": "../public/assets/skill_and_tools/logo_tailwindcss.png"
+        "img": "/assets/skill_and_tools/logo_tailwindcss.png"
       }
     ]
   },
 
   "indonesia": {
     "profile": {
-      "foto_profile_1": "../public/assets/profile/profile_1.png",
-      "foto_profile_2": "../public/assets/profile/profile_2.JPG",
+      "foto_profile_1": "/assets/profile/profile_1.png",
+      "foto_profile_2": "/assets/profile/profile_2.JPG",
       "intro": "Saya",
       "regards": "Halo Semua",
       "name": "Fadel Mahamid Ahmad",
@@ -261,7 +261,7 @@
 
     "educations": [
       {
-        "img": "../public/assets/education/logo_lp3i.png",
+        "img": "/assets/education/logo_lp3i.png",
         "universitas": "Politeknik LP3I Jakarta",
         "prodi": "Manajemen Informatika",
         "study_period": "2020 - 2023",
@@ -271,7 +271,7 @@
 
     "careers": [
       {
-        "img": "../public/assets/careers/logo_radian.png",
+        "img": "/assets/careers/logo_radian.png",
         "position": "Pengembang Web",
         "company": "Radian Solusi Indonesia",
         "working_period": "Ags 2022 - Feb 2023",
@@ -281,22 +281,22 @@
 
     "advantages": [
       {
-        "icon": "../public/assets/icon/icon_workaholic.png",
+        "icon": "/assets/icon/icon_workaholic.png",
         "advantage": "Pekerja Keras",
         "descriptions": "Saya adalah tipe orang yang tidak bisa diam saja, saya cenderung selalu produktif."
       },
       {
-        "icon": "../public/assets/icon/icon_communicative.png",
+        "icon": "/assets/icon/icon_communicative.png",
         "advantage": "Komunikatif",
         "descriptions": "Saya memiliki komunikasi yang baik, memungkinkan saya menyampaikan pesan dengan baik kepada penerima."
       },
       {
-        "icon": "../public/assets/icon/icon_cooperative.png",
+        "icon": "/assets/icon/icon_cooperative.png",
         "advantage": "Kooperatif",
         "descriptions": "Proyek yang berhasil seringkali merupakan hasil kerja tim yang hebat dan luar biasa. Saya sangat pandai membangun kerjasama yang baik dan menjaga konsistensi dengan tujuan utama."
       },
       {
-        "icon": "../public/assets/icon/icon_perfectionist.png",
+        "icon": "/assets/icon/icon_perfectionist.png",
         "advantage": "Perfectionist",
         "descriptions": "Intuisi saya yang kuat memastikan bahwa saya secara konsisten mematuhi standar dengan kualitas tinggi, dan dapat memberikan hasil yang layak."
       }
@@ -304,28 +304,28 @@
 
     "projects": [
       {
-        "img": "../public/assets/project/layout_radian.png",
+        "img": "/assets/project/layout_radian.png",
         "title": "Radian Edu Solution",
         "category": "Web Desain",
         "url": "#",
         "title_color": "#0096FF"
       },
       {
-        "img": "../public/assets/project/layout_logbook.png",
+        "img": "/assets/project/layout_logbook.png",
         "title": "Employee Work Record Book",
         "category": "Web Design",
         "url": "https://github.com/Fadel-Mahamid30/Reacrd-Book-App/tree/master",
         "title_color": "#1E429F"
       },
       {
-        "img": "../public/assets/project/layout_montoon.png",
+        "img": "/assets/project/layout_montoon.png",
         "title": "Moonton Movie",
         "category": "Web Design",
         "url": "https://github.com/Fadel-Mahamid30/Moonton",
         "title_color": "#FB6908"
       },
       {
-        "img": "../public/assets/project/layout_niaga_shop.png",
+        "img": "/assets/project/layout_niaga_shop.png",
         "title": "Niaga Shop",
         "category": "Web Design",
         "url": "https://github.com/Fadel-Mahamid30/Front-End-NiagaShop",
@@ -335,13 +335,13 @@
 
     "testimonials": [
       {
-        "img": "../public/assets/testimonial/aris.png",
+        "img": "/assets/testimonial/aris.png",
         "name": "Riski Aris Sandy",
         "as": "Rekan Kerja",
         "evaluation": "Fadel adalah rekan tim yang luar biasa dalam membangun proyek web design dan UI/UX. Keahliannya dalam menghadirkan antarmuka yang menarik serta fungsional yang baik sungguh membantu dalam menyelesaikan projects kami. Saya sangat merekomendasikan untuk siapapun bila membutuhkan desainer web yang handal."
       },
       {
-        "img": "../public/assets/testimonial/anggara.jpg",
+        "img": "/assets/testimonial/anggara.jpg",
         "name": "Angga",
         "as": "CNP LP3I",
         "evaluation": "Sebagai mahasiswa Manajemen Informatika, Fadel memiliki tanggung jawab yang tinggi dan sikap yang baik. Dia senang belajar hal-hal baru, terutama dalam bahasa pemrograman. Dengan kemampuan dan semangat belajar seperti itu, saya yakin Fadel akan memberikan kontribusi yang baik untuk instansi ataupun perusahaan."
@@ -350,7 +350,7 @@
 
     "certificate": [
       {
-        "img": "../public/assets/certificate/logo-bnsp.png",
+        "img": "/assets/certificate/logo-bnsp.png",
         "name": "Junior Web Programmer",
         "publishing_organization": "Badan Nasional Sertifikasi Profesi (BNSP)",
         "validity_period": "Diterbitkan Sep 2022 Kedaluwarsa Sep 2025",
@@ -358,7 +358,7 @@
         "skill": "Pengembangan Web"
       },
       {
-        "img": "../public/assets/certificate/logo-bnsp.png",
+        "img": "/assets/certificate/logo-bnsp.png",
         "name": "Database Administrator",
         "publishing_organization": "Badan Nasional Sertifikasi Profesi (BNSP)",
         "validity_period": "Diterbitkan Mar 2022 Kedaluwarsa Mar 2025",
@@ -366,7 +366,7 @@
         "skill": "MySql"
       },
       {
-        "img": "../public/assets/certificate/logo-bnsp.png",
+        "img": "/assets/certificate/logo-bnsp.png",
         "name": "Office Application",
         "publishing_organization": "Badan Nasional Sertifikasi Profesi (BNSP)",
         "validity_period": "Diterbitkan Okt 2021 Kedaluwarsa Agu 2024",
@@ -377,34 +377,34 @@
 
     "skills": [
       {
-        "img": "../public/assets/skill_and_tools/logo_html.png"
+        "img": "/assets/skill_and_tools/logo_html.png"
       },
       {
-        "img": "../public/assets/skill_and_tools/logo_css.png"
+        "img": "/assets/skill_and_tools/logo_css.png"
       },
       {
-        "img": "../public/assets/skill_and_tools/logo_javascript.png"
+        "img": "/assets/skill_and_tools/logo_javascript.png"
       },
       {
-        "img": "../public/assets/skill_and_tools/logo_php.png"
+        "img": "/assets/skill_and_tools/logo_php.png"
       },
       {
-        "img": "../public/assets/skill_and_tools/logo_laravel.png"
+        "img": "/assets/skill_and_tools/logo_laravel.png"
       },
       {
-        "img": "../public/assets/skill_and_tools/logo_mySql.png"
+        "img": "/assets/skill_and_tools/logo_mySql.png"
       },
       {
-        "img": "../public/assets/skill_and_tools/logo_nodeJs.png"
+        "img": "/assets/skill_and_tools/logo_nodeJs.png"
       },
       {
-        "img": "../public/assets/skill_and_tools/logo_jQuery.png"
+        "img": "/assets/skill_and_tools/logo_jQuery.png"
       },
       {
-        "img": "../public/assets/skill_and_tools/logo_reactJs.png"
+        "img": "/assets/skill_and_tools/logo_reactJs.png"
       },
       {
-        "img": "../public/assets/skill_and_tools/logo_tailwindcss.png"
+        "img": "/assets/skill_and_tools/logo_tailwindcss.png"
       }
     ]
   }
