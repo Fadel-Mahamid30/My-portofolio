@@ -5,11 +5,13 @@ const LinkButton = ({
     url = "#",
     handleClick,
     variant = "primary-lavender",
+    disible = false
   }) => {
     return (
       <a href={url}
         onClick={handleClick}
-        className={`btn-${variant} flex flex-row justify-center items-center gap-2 ${className}`}
+        disabled={disible}
+        className={`btn-${variant} flex flex-row justify-center items-center gap-2 ${className} disabled:opacity-70 disabled:cursor-not-allowed`}
       >
         {icon && (
           <div className="text-xl flex items-center">

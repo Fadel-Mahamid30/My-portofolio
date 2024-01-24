@@ -2,7 +2,7 @@
   "english": {
     "profile": {
       "foto_profile_1": "../public/assets/profile/profile_1.png",
-      "foto_profile_2": "../public/assets/profile/profile_2.png",
+      "foto_profile_2": "../public/assets/profile/profile_2.JPG",
       "intro": "I am",
       "regards": "Hi everyone",
       "name": "Fadel Mahamid Ahmad",
@@ -15,17 +15,17 @@
       "facebook": {
         "title": "FaceBook",
         "contact": "Fadel Mahamid Ahmad",
-        "url": "#"
+        "url": "https://www.facebook.com/fadel.p.zein/"
       },
       "whatsApp": {
         "title": "WhatsApp",
         "contact": "Fadel Mahamid Ahmad",
-        "url": "#"
+        "url": "https://wa.me/085710678986"
       },
       "instagram": {
         "title": "Instagram",
         "contact": "fadelmahamid30",
-        "url": "#"
+        "url": "https://www.instagram.com/fadelahmad30/"
       },
       "linkedIn": {
         "title": "LinkedIn",
@@ -109,21 +109,21 @@
         "img": "../public/assets/project/layout_logbook.png",
         "title": "Employee Work Record Book",
         "category": "Web Design",
-        "url": "#",
+        "url": "https://github.com/Fadel-Mahamid30/Reacrd-Book-App/tree/master",
         "title_color": "#1E429F"
       },
       {
         "img": "../public/assets/project/layout_montoon.png",
         "title": "Moonton Movie",
         "category": "Web Design",
-        "url": "#",
+        "url": "https://github.com/Fadel-Mahamid30/Moonton",
         "title_color": "#FB6908"
       },
       {
         "img": "../public/assets/project/layout_niaga_shop.png",
         "title": "Niaga Shop",
         "category": "Web Design",
-        "url": "#",
+        "url": "https://github.com/Fadel-Mahamid30/Front-End-NiagaShop",
         "title_color": "#FBA11A"
       }
     ],
@@ -133,13 +133,40 @@
         "img": "../public/assets/testimonial/aris.png",
         "name": "Riski Aris Sandy",
         "as": "Work Colleague",
-        "evaluation": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, necessitatibus error! Et dolorum vel laborum optio, id quibusdam dolorem consequatur maxime cupiditate accusantium. Temporibus mollitia fugit voluptatem soluta possimus ut pariatur consequuntur explicabo omnis quo sint quas dolores perspiciatis quae accusantium voluptate fugiat ipsam atque ratione, obcaecati harum saepe quia."
+        "evaluation": "Fadel is an extraordinary teammate in building web design and UI/UX projects. His expertise in presenting attractive and functional interfaces really helped us in completing our projects. I highly recommend to anyone who needs a reliable web designer."
       },
       {
-        "img": "../public/assets/testimonial/angga.png",
+        "img": "../public/assets/testimonial/anggara.jpg",
         "name": "Angga",
         "as": "CNP LP3I",
         "evaluation": "As an Informatics Management student, Fadel has a high level of responsibility and a good attitude. He enjoys learning new things, especially in programming languages. With such abilities and enthusiasm for learning, I am sure that Fadel will make a good contribution to the agency or company."
+      }
+    ],
+
+    "certificate": [
+      {
+        "img": "../public/assets/certificate/logo-bnsp.png",
+        "name": "Junior Web Programmer",
+        "publishing_organization": "National Professional Certification Agency (BNSP)",
+        "validity_period": "Issued Sep 2022 Expires Sep 2025",
+        "credential_id": "Credential ID 620903122300040442022",
+        "skill": "Web Developer"
+      },
+      {
+        "img": "../public/assets/certificate/logo-bnsp.png",
+        "name": "Database Administrator",
+        "publishing_organization": "National Professional Certification Agency (BNSP)",
+        "validity_period": "Issued Mar 2022 Expires Mar 2025",
+        "credential_id": "Credential ID 620903122300002412022",
+        "skill": "MySql"
+      },
+      {
+        "img": "../public/assets/certificate/logo-bnsp.png",
+        "name": "Office Application",
+        "publishing_organization": "National Professional Certification Agency (BNSP)",
+        "validity_period": "Issued Oct 2021 Expires Aug 2024",
+        "credential_id": "Credential ID 620903511300110682021",
+        "skill": "Microsoft Office"
       }
     ],
 
@@ -180,7 +207,7 @@
   "indonesia": {
     "profile": {
       "foto_profile_1": "../public/assets/profile/profile_1.png",
-      "foto_profile_2": "../public/assets/profile/profile_2.png",
+      "foto_profile_2": "../public/assets/profile/profile_2.JPG",
       "intro": "Saya",
       "regards": "Halo Semua",
       "name": "Fadel Mahamid Ahmad",
@@ -193,17 +220,17 @@
       "facebook": {
         "title": "FaceBook",
         "contact": "Fadel Mahamid Ahmad",
-        "url": "#"
+        "url": "https://www.facebook.com/fadel.p.zein/"
       },
       "whatsApp": {
         "title": "WhatsApp",
         "contact": "Fadel Mahamid Ahmad",
-        "url": "#"
+        "url": "https://wa.me/085710678986"
       },
       "instagram": {
         "title": "Instagram",
         "contact": "fadelmahamid30",
-        "url": "#"
+        "url": "https://www.instagram.com/fadelahmad30/"
       },
       "linkedIn": {
         "title": "LinkedIn",
@@ -286,22 +313,22 @@
       {
         "img": "../public/assets/project/layout_logbook.png",
         "title": "Employee Work Record Book",
-        "category": "Web Desain",
-        "url": "#",
+        "category": "Web Design",
+        "url": "https://github.com/Fadel-Mahamid30/Reacrd-Book-App/tree/master",
         "title_color": "#1E429F"
       },
       {
         "img": "../public/assets/project/layout_montoon.png",
         "title": "Moonton Movie",
-        "category": "Web Desain",
-        "url": "#",
+        "category": "Web Design",
+        "url": "https://github.com/Fadel-Mahamid30/Moonton",
         "title_color": "#FB6908"
       },
       {
         "img": "../public/assets/project/layout_niaga_shop.png",
         "title": "Niaga Shop",
         "category": "Web Design",
-        "url": "#",
+        "url": "https://github.com/Fadel-Mahamid30/Front-End-NiagaShop",
         "title_color": "#FBA11A"
       }
     ],
@@ -311,13 +338,40 @@
         "img": "../public/assets/testimonial/aris.png",
         "name": "Riski Aris Sandy",
         "as": "Rekan Kerja",
-        "evaluation": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, necessitatibus error! Et dolorum vel laborum optio, id quibusdam dolorem consequatur maxime cupiditate accusantium. Temporibus mollitia fugit voluptatem soluta possimus ut pariatur consequuntur explicabo omnis quo sint quas dolores perspiciatis quae accusantium voluptate fugiat ipsam atque ratione, obcaecati harum saepe quia."
+        "evaluation": "Fadel adalah rekan tim yang luar biasa dalam membangun proyek web design dan UI/UX. Keahliannya dalam menghadirkan antarmuka yang menarik serta fungsional yang baik sungguh membantu dalam menyelesaikan projects kami. Saya sangat merekomendasikan untuk siapapun bila membutuhkan desainer web yang handal."
       },
       {
-        "img": "../public/assets/testimonial/angga.png",
+        "img": "../public/assets/testimonial/anggara.jpg",
         "name": "Angga",
         "as": "CNP LP3I",
         "evaluation": "Sebagai mahasiswa Manajemen Informatika, Fadel memiliki tanggung jawab yang tinggi dan sikap yang baik. Dia senang belajar hal-hal baru, terutama dalam bahasa pemrograman. Dengan kemampuan dan semangat belajar seperti itu, saya yakin Fadel akan memberikan kontribusi yang baik untuk instansi ataupun perusahaan."
+      }
+    ],
+
+    "certificate": [
+      {
+        "img": "../public/assets/certificate/logo-bnsp.png",
+        "name": "Junior Web Programmer",
+        "publishing_organization": "Badan Nasional Sertifikasi Profesi (BNSP)",
+        "validity_period": "Diterbitkan Sep 2022 Kedaluwarsa Sep 2025",
+        "credential_id": "ID Kredensial 620903122300040442022",
+        "skill": "Pengembangan Web"
+      },
+      {
+        "img": "../public/assets/certificate/logo-bnsp.png",
+        "name": "Database Administrator",
+        "publishing_organization": "Badan Nasional Sertifikasi Profesi (BNSP)",
+        "validity_period": "Diterbitkan Mar 2022 Kedaluwarsa Mar 2025",
+        "credential_id": "ID Kredensial 620903122300002412022",
+        "skill": "MySql"
+      },
+      {
+        "img": "../public/assets/certificate/logo-bnsp.png",
+        "name": "Office Application",
+        "publishing_organization": "Badan Nasional Sertifikasi Profesi (BNSP)",
+        "validity_period": "Diterbitkan Okt 2021 Kedaluwarsa Agu 2024",
+        "credential_id": "ID Kredensial 620903511300110682021",
+        "skill": "Microsoft Office"
       }
     ],
 

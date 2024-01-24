@@ -1,5 +1,5 @@
 import Card from "./Card";
-import LinkButton from "./LinkButton";
+import Button from "./Button";
 import CutSentence from "./CutSentence";
 
 const CardProject = ({
@@ -9,6 +9,9 @@ const CardProject = ({
   url,
   title_color = "#ffffff",
 }) => {
+  const link = (url) => {
+    window.location.href = url;
+  }
   return (
     <Card className="p-[16px] sm:p-[24px] ipad:p-[40px] rounded-[10px] ipad:rounded-[20px]">
       <div className="flex flex-col ipad:flex-row gap-6 ipad:gap-12 item-start ipad:items-center mb-9 ipad:mb-0 ipad:mr-9">
@@ -33,11 +36,11 @@ const CardProject = ({
         </div>
       </div>
       <div className="ipad:w-fit w-full flex justify-end">
-        <LinkButton url={url} className="w-full hp:w-fit">
-          <span className="text-base w-[98px] font-semibold text-center block text-nowrap">
-            View Details
+        <Button handleClick={() => link(url)} disible={url === "#"? true : false} className="w-full hp:w-fit" icon="logo-github">
+          <span className="text-base font-semibold text-center block text-nowrap">
+            Github
           </span>
-        </LinkButton>
+        </Button>
       </div>
     </Card>
   );
