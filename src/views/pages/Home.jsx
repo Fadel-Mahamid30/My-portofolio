@@ -145,9 +145,7 @@ const Home = ({ data, setLanguage }) => {
                   data-aos-delay={100 * (data.projects.length + 1)}
                   data-aos-duration="1000"
                 >
-                  <Card
-                    className="p-[16px] sm:p-[24px] ipad:p-[40px] rounded-[10px] ipad:rounded-[20px]"
-                  >
+                  <Card className="p-[16px] sm:p-[24px] ipad:p-[40px] rounded-[10px] ipad:rounded-[20px]">
                     <div className="flex flex-col gap-3 mb-10 ipad:mb-0">
                       <h3 className="text-2xl text-white font-semibold">
                         See More Projects
@@ -157,7 +155,8 @@ const Home = ({ data, setLanguage }) => {
                       </p>
                     </div>
                     <div className="flex justify-end">
-                      <Button handleClick={() => navigate("/projects")}
+                      <Button
+                        handleClick={() => navigate("/projects")}
                         className="w-full hp:w-fit"
                         icon="list-circle"
                         variant="primary-light"
@@ -251,11 +250,14 @@ const Home = ({ data, setLanguage }) => {
                           className="w-full flex flex-col ipad:flex-row items-start gap-10 bg-tr-black"
                         >
                           <div className="p-0 ipad:p-4 w-full ipad:w-fit bg-qt-black flex-shrink-0 flex rounded-xl">
-                            <img
-                              src={testi.img}
-                              alt=""
-                              className="w-full h-full ipad:h-60"
-                            />
+                            <div className="relative w-full  ipad:w-[320px] h-[280px] hp:h-[360px] ipad:h-[240px] overflow-hidden rounded-lg">
+                              <img
+                                src={testi.img}
+                                alt=""
+                                className="w-full h-full absolute object-cover"
+                                style={{ objectPosition: "top" }}
+                              />
+                            </div>
                           </div>
                           <div className="flex flex-col gap-5 pt-0 ipad:pt-4">
                             <div className="flex flex-col gap-1">

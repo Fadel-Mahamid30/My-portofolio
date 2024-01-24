@@ -152,6 +152,63 @@ const About = ({ data, setLanguage }) => {
                       ))}
                     </div>
                   )}
+
+                  {data?.certificate && (
+                    <div className="flex flex-col gap-5">
+                      <h3 className="text-2xl hp:text-3xl font-semibold text-white">
+                        Certificate
+                      </h3>
+                      {data.certificate.map((value, index) => (
+                        <div
+                          data-aos="fade-left"
+                          data-aos-delay={index == 0 ? 100 : 100 * (index + 2)}
+                          data-aos-duration="1000"
+                          key={index}
+                        >
+                          <Card className="p-4 rounded-[10px] relative">
+                            <div className="flex flex-row w-full gap-6">
+                              <div className="hidden miniHp:flex w-[70px] h-[70px] rounded-lg items-center justify-center flex-shrink-0 bg-white">
+                                <img
+                                  src={value.img}
+                                  alt=""
+                                  className="w-[50px]"
+                                />
+                              </div>
+                              <div className="flex flex-col gap-3 w-full">
+                                <div className="flex flex-col gap-1">
+                                  <div className="flex gap-4 flex-row items-center mb-2 miniHp:mb-0">
+                                    <div className="flex miniHp:hidden w-[60px] h-[60px] rounded-lg items-center justify-center flex-shrink-0 bg-white">
+                                      <img
+                                        src={value.img}
+                                        alt=""
+                                        className="w-[50px]"
+                                      />
+                                    </div>
+                                    <h4 className="text-xl hp:text-2xl font-semibold text-pr-lavender">
+                                      {value.name}
+                                    </h4>
+                                  </div>
+                                  <p className="text-lg text-sr-gray">
+                                    {value.publishing_organization}
+                                  </p>
+                                  <p className="text-lg text-sr-gray">
+                                    {value.credential_id}
+                                  </p>
+                                  <p className="text-lg text-sr-gray">
+                                    {value.validity_period}
+                                  </p>
+                                </div>
+                                <p className="text-lg font-light text-white">
+                                  <span className="font-semibold">Skill: </span>
+                                  {value.skill}
+                                </p>
+                              </div>
+                            </div>
+                          </Card>
+                        </div>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
