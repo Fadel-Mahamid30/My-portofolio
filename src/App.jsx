@@ -5,6 +5,7 @@ import Home from "./views/pages/Home";
 import Projects from "./views/pages/Projects";
 import About from "./views/pages/About";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Error from "./views/pages/Error";
 
 function App() {
   const [dataJson, setDataJson] = useState(null);
@@ -70,6 +71,10 @@ function App() {
         <Route
           path="/projects"
           element={<Projects data={dataContent} setLanguage={setContentLanguage} />}
+        />
+        <Route
+          path="*"
+          element={<Error/>}
         />
       </Routes>
     </Router>
