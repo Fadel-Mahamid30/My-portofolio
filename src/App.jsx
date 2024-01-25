@@ -73,7 +73,7 @@ function App() {
           element={<Projects data={dataContent} setLanguage={setContentLanguage} />}
         />
         <Route
-          path="*"
+          path="/*"
           element={<Error/>}
         />
       </Routes>
