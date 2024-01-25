@@ -154,7 +154,12 @@ const About = ({ data, setLanguage }) => {
                   )}
 
                   {data?.certificate && (
-                    <div className="flex flex-col gap-5">
+                    <div
+                      data-aos="fade-left"
+                      data-aos-delay="200"
+                      data-aos-duration="1000"
+                      className="flex flex-col gap-5"
+                    >
                       <h3 className="text-2xl hp:text-3xl font-semibold text-white">
                         Certificate
                       </h3>
@@ -188,7 +193,7 @@ const About = ({ data, setLanguage }) => {
                                       {value.name}
                                     </h4>
                                   </div>
-                                  <p className="text-lg text-sr-gray">
+                                  <p className="text-lg text-white">
                                     {value.publishing_organization}
                                   </p>
                                   <p className="text-lg text-sr-gray">
